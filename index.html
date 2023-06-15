@@ -6,48 +6,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge>
   <meta name=" viewport" content="width=device-width, initial-scale=1.0">
   <title>Ethan Facca</title>
-  <link rel="stylesheet" href="style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
 
+  <!-- header design-->
   <header class="header">
     <a href="#" class="logo">untypequicode.</a>
 
+    <div class="bx bx-menu" id="menu-icon"></div>
+
     <nav class="navbar">
-      <a href="#" class="active">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
+      <a href="#home" class="active">Accueil</a>
+      <a href="#projects">Projets</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="home">
+  <!-- home section design -->
+  <section class="home" id="home">
     <div class="home-content">
-      <h1>Hi, I'm Ethan Facca</h1>
-      <h3>Developer</h3>
+      <h1><span>Ethan Facca</span></h1>
+      <div class="text-animate">
+        <h3>Développeur</h3>
+      </div>
       <p>Bonjour, je m'appelle Ethan Facca et je suis un étudiant au lycée passionné par le développement informatique.
         Je crée des applications Android et des systèmes sécurisés en utilisant Python, C++ et Kotlin. J'aime relever
-        des défis, apprendre de nouvelles technologies et travailler en équipe.
-      </p>
+        des défis, apprendre de nouvelles technologies et travailler en équipe.</p>
+
       <div class="btn-box">
-        <a href="#">Hire Me</a>
-        <a href="#">Let's Talk</a>
+        <a href="#projects" class="btn">Mes projets</a>
+        <a href="#contact" class="btn">Me contacter</a>
       </div>
     </div>
 
     <div class="home-sci">
-      <a href="https://www.linkedin.com/in/ethan-facca/"><i class='bx bxl-linkedin'></i></a>
-      <a href="https://github.com/untypequicode"><i class='bx bxl-github'></i></a>
-      <a href="https://www.instagram.com/untypequicode/"><i class='bx bxl-instagram'></i></i></a>
+      <a href="https://github.com/untypequicode" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.instagram.com/untypequicode/" target="_blank"><i class='bx bxl-instagram'></i></i></a>
+      <a href="https://www.linkedin.com/in/ethan-facca/" target="_blank"><i class='bx bxl-linkedin'></i></a>
     </div>
 
-    <span class="home-imgHover"></span>
+    <div class="home-imgHover"></div>
+
   </section>
 
+  <script src="js/script.js"></script>
 </body>
 
 </html>
