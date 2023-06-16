@@ -290,6 +290,10 @@ section {
     font-size: 2.6rem;
 }
 
+.project-content h3 a{
+    color : var(--text-color);
+}
+
 .project-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
@@ -423,3 +427,5 @@ span {
 .footer-iconTop a:hover i {
     color: var(--main-color);
 }
+
+/* BREAKPOINTS */
