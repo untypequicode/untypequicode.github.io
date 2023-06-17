@@ -519,13 +519,13 @@ section:nth-child(odd) .animate.scroll,
 }
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+@media all and (max-width: 1200px) {
     html {
         font-size: 55%
     }
 }
 
-@media (max-width: 991px) {
+@media all and (max-width: 991px) {
     .header {
         padding: 2rem 4%;
     }
@@ -543,13 +543,13 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 850px) {
+@media all and (max-width: 850px) {
     .animate.home-img {
         width: 55%;
     }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     .header {
         background: var(--bg-color);
     }
@@ -628,7 +628,7 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 520px) {
+@media all and (max-width: 520px) {
     html {
         font-size: 50%;
     }
@@ -648,7 +648,7 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 462px) {
+@media all and (max-width: 462px) {
     .home-content h1 {
         font-size: 5.2rem;
     }
@@ -667,7 +667,7 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
-@media (max-width: 371px) {
+@media all and (max-width: 371px) {
     .home {
         justify-content: center;
     }
