@@ -6,7 +6,7 @@ const dbProjets = [
     end_date: "now",
     client: "Mayday Festival",
     description: "Site web pour le festival Mayday",
-    image: "img/projets/mayday.png",
+    image: "img/projets/mayday.webp",
     url: "https://maydayfestival.fr/",
 }
 ];

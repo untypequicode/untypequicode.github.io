@@ -1,1 +1,57 @@
 @import "main.css";
+
+
+#home-s {
+    padding: 0 19%;
+    align-items: start;
+}
+
+.home-content {
+    max-width: 60rem;
+    z-index: 1;
+}
+
+#home-bg {
+    top: 0;
+    background-image: url("../images/home.webp");
+    height: 100vh;
+}
+
+#home-bg-hover {
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    transition: opacity 3s, background 3s;
+}
+
+#home-bg-hover:hover {
+    background: var(--bg-color);
+    opacity: .6;
+}
+
+/* BREAKPOINT: */
+@media all and (max-width: 768px) {
+    #home-s {
+        padding: 50% 19% 0;
+        align-items: center;
+    }
+
+    #home-bg {
+        background-image: url("../images/home-mobile.webp");
+    }
+
+    #home-bg-hover {
+        left: 0;
+        width: 100%;
+        pointer-events: none;
+        background: var(--bg-color);
+        opacity: .6;
+    }
+
+    .sh {
+        flex-direction: column;
+    }
+}
