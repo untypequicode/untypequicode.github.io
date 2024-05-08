@@ -18,7 +18,7 @@ const logo = {
     // type: "image",
     content: "untypequicode.",
     // content: "images/favicon.svg",
-    link: "https://untypequicode.github.io/whatsong/",
+    link: "https://untypequicode.github.io/",
     index: "Accueil",
 }
 
