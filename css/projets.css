@@ -40,7 +40,7 @@
     height: auto;
     max-width: 50%;
     max-height: 50vh;
-    border-radius: 5rem;
+    border-radius: 2.5rem;
     object-fit: cover;
 }
 
@@ -73,6 +73,31 @@
     line-height: 2.5rem;
 }
 
+.project-url {
+    display: flex;
+    flex-direction: row;
+    gap: 0 1rem;
+}
+
+.project-item.second .btn {
+    border-color: var(--second-text-color);
+    color: var(--second-text-color);
+    background: transparent;
+}
+
+.project-item.second .btn::before {
+    background: var(--second-text-color);
+}
+
+.project-item.second .btn:focus {
+    color: var(--second-bg-color);
+}
+
+.project-item.second .btn:hover,
+.project-item.second .btn:focus {
+    color: var(--bg-color);
+}
+
 /* BREAKPOINT: */
 @media all and (max-width: 991px) {
     .project-item,
@@ -94,5 +119,9 @@
     .project-item.second .project-item-content {
         align-items: center;
         text-align: center;
+    }
+
+    .project-url {
+        flex-direction: column;
     }
 }

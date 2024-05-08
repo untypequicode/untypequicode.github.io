@@ -4,17 +4,15 @@
 #home-s {
     padding: 0 19%;
     align-items: start;
+    background: url(../images/home.webp) no-repeat;
+    background-color: var(--bg-color);
+    background-size: cover;
+    background-position: center;
 }
 
 .home-content {
     max-width: 60rem;
     z-index: 1;
-}
-
-#home-bg {
-    top: 0;
-    background-image: url("../images/home.webp");
-    height: 100vh;
 }
 
 #home-bg-hover {
@@ -24,7 +22,7 @@
     width: 50%;
     height: 100%;
     background: transparent;
-    transition: opacity 3s, background 3s;
+    transition: opacity .5s, background .5s;
 }
 
 #home-bg-hover:hover {
@@ -37,10 +35,7 @@
     #home-s {
         padding: 50% 19% 0;
         align-items: center;
-    }
-
-    #home-bg {
-        background-image: url("../images/home-mobile.webp");
+        background-image: url(../images/home-mobile.webp);
     }
 
     #home-bg-hover {

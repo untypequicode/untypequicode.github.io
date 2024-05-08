@@ -3,13 +3,21 @@
     --min-font-size: 1.6rem;
     --max-font-weight: 700;
 
-    --second-bg-color: var(--blue-bg-color);
-    --second-text-color: var(--blue-text-color);
-    --second-main-color: var(--blue-main-color);
+    --bg-color: var(--blue-bg-color);
+    --text-color: var(--blue-text-color);
+    --main-color: var(--blue-main-color);
+
+    --second-bg-color: var(--grey-bg-color);
+    --second-text-color: var(--grey-text-color);
+    --second-main-color: var(--grey-main-color);
 }
 
 .dark-mode {
-    --second-bg-color: var(--blue-bg-color);
-    --second-text-color: var(--blue-text-color);
-    --second-main-color: var(--blue-main-color);
+    --bg-color: var(--blue-bg-color);
+    --text-color: var(--blue-text-color);
+    --main-color: var(--blue-main-color);
+
+    --second-bg-color: var(--grey-bg-color);
+    --second-text-color: var(--grey-text-color);
+    --second-main-color: var(--grey-main-color);
 }
