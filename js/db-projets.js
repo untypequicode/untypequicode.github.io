@@ -7,7 +7,12 @@ const dbProjets = [
         client: "M-Tech",
         description: "Site web pour le festival Mayday",
         image: "images/projects/mayday.webp",
-        url: "https://maydayfestival.fr/",
+        url: [
+            {
+                name: "Voir le site",
+                link: "https://maydayfestival.fr/"
+            }
+        ]
     },
     {
         id: 2,
@@ -20,7 +25,12 @@ const dbProjets = [
             "connectez-vous à Internet et utilisez la lampe sans fil grâce à sa batterie rechargeable. " +
             "Apportez de la lumière et de la chaleur à n'importe quel espace avec LumiWood.",
         image: "images/projects/lumiwood.webp",
-        url: "https://github.com/Iuris-tech/LumiWood",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/Iuris-tech/LumiWood"
+            }
+        ]
     },
     {
         id: 3,
@@ -32,7 +42,12 @@ const dbProjets = [
             "ce qui a un impact négatif sur l'environnement. " +
             "Nous avons donc voulu créer une solution qui permettrait à chacun de devenir un écocitoyen responsable et de contribuer à la protection de notre planète.",
         image: "images/projects/ekoroji.webp",
-        url: "https://github.com/Les-4-fantastiques/Ekoroji",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/Les-4-fantastiques/Ekoroji"
+            }
+        ]
     },
     {
         id: 4,
@@ -45,7 +60,12 @@ const dbProjets = [
             "Tu dois alors t'échapper rapidement et revenir à la vie. " +
             "Garde le cap et essais de ne jamais tomber, sinon à tes risques et périls…",
         image: "images/projects/jumping-hell.webp",
-        url: "https://github.com/untypequicode/Jumping-Hell",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/Jumping-Hell"
+            }
+        ]
     },
     {
         id: 5,
@@ -59,7 +79,12 @@ const dbProjets = [
             "le monstre à trois têtes de singe. " +
             "Ce ne sera pas de tout répit, Cerber est très malin, alors à vous de jouer !",
         image: "images/projects/let-me-die.webp",
-        url: "https://github.com/untypequicode/Let-Me-Diiiiie",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/Let-Me-Diiiiie"
+            }
+        ]
     },
     {
         id: 6,
@@ -71,7 +96,12 @@ const dbProjets = [
             "The Circus Claw Machine, est un jeu de plateforme qui comprend un réglage dans le menu Jeux. " +
             "Pour lancer le jeu, il faut aussi réussir à prendre les bons éléments de la fameuse machine à pince.",
         image: "images/projects/circus-claw-machine.webp",
-        url: "https://github.com/untypequicode/circus-claw-machine",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/circus-claw-machine"
+            }
+        ]
     },
     {
         id: 7,
@@ -82,7 +112,16 @@ const dbProjets = [
         description: "Green Growth est un site web réalisé durant la nuit de l'info en 16H32 par notre équipe de cinq membres. " +
             "La version en ligne est celle rendue lors du concours, une mise à jour de type correctif est prévue.",
         image: "images/projects/green-growth.webp",
-        url: "https://les-codeurs-lunaires.github.io/Green-Growth/",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/les-codeurs-lunaires/Green-Growth",
+            },
+            {
+                name: "Voir le site",
+                link: "https://les-codeurs-lunaires.github.io/Green-Growth/"
+            }
+        ],
     },
     {
         id: 8,
@@ -92,7 +131,12 @@ const dbProjets = [
         client: "Personnel",
         description: "Ollama Assist : Assistants alimentés par l'IA pour Linux.",
         image: "images/projects/ollama-assist.svg",
-        url: "https://github.com/untypequicode/ollama-assist",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/ollama-assist"
+            }
+        ]
     },
     {
         id: 9,
@@ -103,7 +147,16 @@ const dbProjets = [
         description: "Ici, je partage mes astuces et découvertes pour une vie numérique plus sécurisée. " +
             "Suivez mon aventure avec LibreShield, des conseils pratiques et des solutions open source.",
         image: "images/projects/libre-shield.webp",
-        url: "https://github.com/untypequicode/libre-shield",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/libre-shield"
+            },
+            {
+                name: "Voir le site",
+                link: "https://untypequicode.github.io/libre-shield/"
+            }
+        ]
     },
     {
         id: 10,
@@ -114,7 +167,16 @@ const dbProjets = [
         description: "Script.js est un framework JavaScript minimaliste pour créer des sites web modernes et dynamiques. " +
             "Il est conçu pour être simple, léger et facile à utiliser.",
         image: "images/projects/scriptjs.webp",
-        url: "https://github.com/untypequicode/script.js",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/script.js"
+            },
+            {
+                name: "Voir le site",
+                link: "https://untypequicode.github.io/script.js/"
+            }
+        ]
     },
     {
         id: 11,
@@ -125,6 +187,15 @@ const dbProjets = [
         description: "Style.css est une bibliothèque CSS minimaliste pour styliser vos sites web. " +
             "Il est conçu pour être simple, léger et facile à utiliser.",
         image: "images/projects/stylecss.webp",
-        url: "https://github.com/untypequicode/style.css",
+        url: [
+            {
+                name: "Voir le code source",
+                link: "https://github.com/untypequicode/style.css"
+            },
+            {
+                name: "Voir le site",
+                link: "https://untypequicode.github.io/style.css/"
+            }
+        ]
     },
 ];

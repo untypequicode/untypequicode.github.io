@@ -46,8 +46,18 @@ function genereContent() {
             <h2>${dateDisplay}</h2>
             <h3>${project.client}</h3>
             <p>${project.description}</p>
-            <a href="${project.url}" class="btn" target="_blank">Voir le projet</a>
+            <div class="project-url"></div>
+<!--            <a href="${project.url}" class="btn" target="_blank">Voir le projet</a>-->
         </div>`;
+        project.url.forEach((url) => {
+            const urlA = document.createElement("a");
+            urlA.href = url.link;
+            urlA.classList.add("btn");
+            urlA.target = "_blank";
+            urlA.textContent = url.name;
+            projectDiv.querySelector(".project-url").appendChild(urlA);
+        });
+        
         document.querySelector(".projects-grid").appendChild(projectDiv);
     });
 }
