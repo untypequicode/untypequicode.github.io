@@ -43,7 +43,7 @@
         width: 100%;
         pointer-events: none;
         background: var(--bg-color);
-        opacity: .6;
+        opacity: 0;
     }
 
     .sh {
