@@ -27,7 +27,51 @@
 
 #home-bg-hover:hover {
     background: var(--bg-color);
-    opacity: .6;
+    opacity: .4;
+}
+
+#home-socials {
+    position: absolute;
+    bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#home-socials a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: transparent;
+    border: .2rem solid var(--text-color);
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+#home-socials a:hover {
+    color: var(--bg-color);
+}
+
+#home-socials a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--text-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+#home-socials a:hover::before {
+    width: 100%;
 }
 
 /* BREAKPOINT: */
