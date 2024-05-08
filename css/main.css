@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.bg {
+.bg-f {
     position: absolute;
     left: 0;
     width: 100%;
