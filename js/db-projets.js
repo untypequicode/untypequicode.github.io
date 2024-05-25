@@ -109,8 +109,7 @@ const dbProjets = [
         start_date: "2023-12-07",
         end_date: "2023-12-08",
         client: "Nuit de l'info",
-        description: "Green Growth est un site web réalisé durant la nuit de l'info en 16H32 par notre équipe de cinq membres. " +
-            "La version en ligne est celle rendue lors du concours, une mise à jour de type correctif est prévue.",
+        description: "Green Growth est un site web réalisé durant la nuit de l'info en 16H32 par notre équipe de cinq membres.",
         image: "images/projects/green-growth.webp",
         url: [
             {
