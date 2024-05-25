@@ -115,11 +115,11 @@ const dbProjets = [
         url: [
             {
                 name: "Voir le code source",
-                link: "https://github.com/les-codeurs-lunaires/Green-Growth",
+                link: "https://github.com/les-codeurs-lunaires/green-growth",
             },
             {
                 name: "Voir le site",
-                link: "https://les-codeurs-lunaires.github.io/Green-Growth/"
+                link: "https://les-codeurs-lunaires.github.io/green-growth/"
             }
         ],
     },
