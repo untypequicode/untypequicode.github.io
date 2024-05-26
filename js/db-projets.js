@@ -129,7 +129,7 @@ const dbProjets = [
         end_date: "now",
         client: "Personnel",
         description: "Ollama Assist : Assistants alimentés par l'IA pour Linux.",
-        image: "images/projects/ollama-assist.svg",
+        image: "images/projects/ollama-assist.webp",
         url: [
             {
                 name: "Voir le code source",
