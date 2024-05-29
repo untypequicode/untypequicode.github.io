@@ -1,7 +1,6 @@
 :root {
     --max-font-size: 5.6rem;
     --min-font-size: 1.6rem;
-    --max-font-weight: 700;
 
     --bg-color: var(--blue-bg-color);
     --text-color: var(--blue-text-color);
