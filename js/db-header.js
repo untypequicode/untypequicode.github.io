@@ -1,7 +1,7 @@
 const db_header = [
     {
         text: "Accueil",
-        url: "https://untypequicode.github.io/",
+        url: "https://untypequicode.fr/",
     },
     {
         text: "Projets",
@@ -18,7 +18,7 @@ const logo = {
     // type: "image",
     content: "untypequicode.",
     // content: "images/favicon.svg",
-    link: "https://untypequicode.github.io/",
+    link: "https://untypequicode.fr/",
     index: "Accueil",
 }
 
