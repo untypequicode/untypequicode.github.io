@@ -153,7 +153,7 @@ const dbProjets = [
             },
             {
                 name: "Voir le site",
-                link: "https://untypequicode.github.io/libre-shield/"
+                link: "https://untypequicode.fr/libre-shield/"
             }
         ]
     },
@@ -173,7 +173,7 @@ const dbProjets = [
             },
             {
                 name: "Voir le site",
-                link: "https://untypequicode.github.io/script.js/"
+                link: "https://untypequicode.fr/script.js/"
             }
         ]
     },
@@ -193,7 +193,7 @@ const dbProjets = [
             },
             {
                 name: "Voir le site",
-                link: "https://untypequicode.github.io/style.css/"
+                link: "https://untypequicode.fr/style.css/"
             }
         ]
     },
