@@ -1,4 +1,9 @@
 User-agent: *
-Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /.gitignore
 
 Sitemap: https://untypequicode.fr/sitemap.xml
