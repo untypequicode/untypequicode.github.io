@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://untypequicode.fr/sitemap.xml
