@@ -1,24 +1,149 @@
-@import "https://untypequicode.fr/style.css/css/style.css";
-@import "https://untypequicode.fr/style.css/css/local.css";
 @import "local.css";
 
+:root {
+    --font-title: "Popins", sans-serif;
+    --font-body: "JetBrains Mono", monospace;
+}
+
 * {
-    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: var(--font-body);
+    scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
-    display: none;
+html {
+    overflow-x: hidden;
 }
 
-.bg-f {
-    position: absolute;
+body {
+    background-color: #dbdbdb;
+    color: #000;
+    overflow-y: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /*opacity: 0.5;*/
-    z-index: 0;
+    height: 100px;
+    z-index: 1000;
+    background-color: #d9d9d9;
+}
+
+header div {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    /* padding: 2rem 9%; */
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #000;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-title);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #555;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+header nav ul #contact-link {
+    color: #151515;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    margin: 156px auto 0;
+    height: 111px;
+}
+
+footer #footer {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    height: 100%;
+    /* padding: 2rem 9%; */
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer #footer hr {
+    width: 100%;
+    height: 1px;
+    background-color: #a5a5a5;
+    border: none;
+    margin: 0;
+}
+
+footer #footer-content {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+footer #footer-content p,
+footer #footer-content p a {
+    color: #000;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -0.6px;
+}
+
+footer #footer-mentions-legales {
+    text-decoration: none;
 }

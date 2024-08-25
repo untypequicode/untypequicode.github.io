@@ -1,9 +1,0 @@
-@import "main.css";
-
-#about-img {
-    width: 25rem;
-    aspect-ratio: 1 / 1;
-    max-height: 75vh;
-    object-fit: cover;
-    border-radius: 50%;
-}

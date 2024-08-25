@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /css/
 Disallow: /js/
-Disallow: /images/
 Disallow: /README.md
 Disallow: /LICENSE
 Disallow: /.gitignore

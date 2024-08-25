@@ -1,72 +1,256 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ethan Facca</title>
+        <meta name="description" content="" />
+        <!-- TODO -->
 
-    <!-- OpenGraph-->
-    <title>Ethan Facca</title>
-    <meta name="description"
-          content="Je suis étudiant en cursus master en ingénierie dans le domaine de l’optimisation mathématiques et algorithmes à l’université de Bordeaux.
-                Passionné par le développement informatique, j’utilise principalement Python, C++, HTML et CSS.
-                J’aime relever des défis, apprendre de nouvelles technologies et travailler en équipe.">
-    <meta property="og:url" content="https://untypequicode.fr">
-    <meta property="og:title" content="Ethan Facca">
-    <meta property="og:description" content="Je suis étudiant en cursus master en ingénierie dans le domaine de l’optimisation mathématiques et algorithmes à l’université de Bordeaux.
-                Passionné par le développement informatique, j’utilise principalement Python, C++, HTML et CSS.
-                J’aime relever des défis, apprendre de nouvelles technologies et travailler en équipe.">
-    <meta property="og:image" content="https://untypequicode.fr/images/og-image.webp">
+        <meta name="author" content="Ethan Facca" />
+        <meta name="keywords" content="" />
+        <!-- TODO -->
 
-    <link rel="icon" type="image/webp" href="images/favicon.webp">
+        <meta property="og:title" content="Ethan Facca" />
+        <meta property="og:description" content="" />
+        <!-- TODO -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://untypequicode.fr" />
+        <meta
+            property="og:image"
+            content="https://untypequicode.fr/img/og-image.jpg"
+        />
+        <meta property="og:site_name" content="Ethan Facca" />
+        <meta property="og:locale" content="fr_FR" />
 
-    <link rel="stylesheet" href="css/index.css">
-</head>
+        <link rel="icon" href="img/favicon.ico" />
+        <link rel="apple-touch-icon" href="img/favicon.png" />
+        <link rel="canonical" href="https://untypequicode.fr" />
 
-<body data-active="Accueil">
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
 
-<header class="header"></header>
-
-<section id="home-s" class="ah-i">
-    <div class="home-content">
-        <div class="ah sv">
-            <h1>Ethan Facca</h1>
-            <h4>Étudiant en CMI OPTIM à l'université de Bordeaux</h4>
-            <div class="sh">
-                <a href="projets" class="btn" aria-label="Découvrir mes projets" title="Découvrir mes projets">Découvrir mes projets</a>
-                <a href="https://linkedin.com/in/ethan-facca" class="btn-r" aria-label="Voir mon profil LinkedIn" title="Voir mon profil LinkedIn" target="_blank">Me contacter</a>
+    <body>
+        <header>
+            <div>
+                <a class="logo" href="#">untypequicode.</a>
+                <nav>
+                    <ul>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li>
+                            <a id="contact-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </div>
-    <div class="bg" id="home-bg-hover"></div>
-    <div id="home-socials">
-        <a href="https://github.com/untypequicode" target="_blank" aria-label="Github | untypequicode"><i class='bx bxl-github'></i></a>
-        <a href="https://linkedin.com/in/ethan-facca" target="_blank" aria-label="LinkedIn | Ethan Facca"><i class='bx bxl-linkedin'></i></a>
-    </div>
-</section>
+        </header>
 
-<!--<footer class="footer"></footer>-->
+        <main>
+            <section id="home">
+                <h1>J'accélère les process des entreprises grâce au code</h1>
+                <p>
+                    Je suis Ethan, étudiant en informatique spécialisé dans
+                    l'optimisation mathématique.
+                </p>
 
-<script src="js/db-header.js"></script>
-<script src="https://script.js.untypequicode.fr/js/header.js"></script>
-<!--<script src="js/db-footer.js"></script>-->
-<script src="https://script.js.untypequicode.fr/js/footer.js"></script>
-<script src="https://style.css.untypequicode.fr/js/animation.js"></script>
-<script src="https://script.js.untypequicode.fr/js/switch-mode.js"></script>
+                <ul>
+                    <li id="home-about">
+                        <a href="#about">En savoir plus</a>
+                    </li>
+                    <li id="home-contact">
+                        <a
+                            target="_blank"
+                            href="https://linkedin.com/in/ethan-facca"
+                            >Me contacter</a
+                        >
+                    </li>
+                </ul>
+            </section>
 
-<script defer src="https://medama.untypequicode.fr/script.js"></script>
+            <section id="about">
+                <div id="about-image-container">
+                    <img
+                        id="about-image"
+                        src="img/og-image.jpeg"
+                        alt="Ethan Facca"
+                    />
+                </div>
+                <div id="about-content">
+                    <h2>À propos</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
+                    </p>
+                </div>
+            </section>
 
-<script src="https://openpanel.dev/op.js" defer async></script>
-<script>
-    window.op = window.op || function (...args) { (window.op.q = window.op.q || []).push(args); };
-    window.op('ctor', {
-        clientId: 'c00fd895-7b57-4217-b149-5ecba887ce1a',
-        trackScreenViews: true,
-        trackOutgoingLinks: true,
-        trackAttributes: true,
-    });
-</script>
+            <section id="projects">
+                <h2>Mes projets</h2>
+                <ul>
+                    <li style="grid-area: 1 / 1 / 3 / 4">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Mayday Festival</h3>
+                                <p>2024 - Site Web</p>
+                            </div>
+                            <img
+                                src="img/projects/mayday.jpg"
+                                alt="Mayday Festival"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 1 / 4 / 2 / 5">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Script.js</h3>
+                                <p>2024 - Framework JavaScript</p>
+                            </div>
+                            <img
+                                src="img/projects/Script.js.png"
+                                alt="Script.js"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 2 / 4 / 3 / 5">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Style.css</h3>
+                                <p>2024 - Framework CSS</p>
+                            </div>
+                            <img
+                                src="img/projects/Style.css.png"
+                                alt="Style.css"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 3 / 1 / 4 / 2">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Libre Shield</h3>
+                                <p>2024 - Site Web</p>
+                            </div>
+                            <img
+                                src="img/projects/Libre Shield.png"
+                                alt="Libre Shield"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 3 / 2 / 4 / 4">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Circus Claw Machine</h3>
+                                <p>2024 - Jeu de plateforme</p>
+                            </div>
+                            <img
+                                src="img/projects/Circus Claw Machine.png"
+                                alt="Circus Claw Machine"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 3 / 4 / 4 / 5">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Ollama Assist</h3>
+                                <p>2024 - Assistant IA</p>
+                            </div>
+                            <img
+                                src="img/projects/Ollama Assist.png"
+                                alt="Ollama Assist"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 4 / 2 / 6 / 5">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>LumiWood</h3>
+                                <p>2022/2023 - Lampe connectée</p>
+                            </div>
+                            <img
+                                src="img/projects/Lumiwood.png"
+                                alt="LumiWood"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 4 / 1 / 5 / 2">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Ekoroji</h3>
+                                <p>2023 - Site Web</p>
+                            </div>
+                            <img src="img/projects/Ekoroji.png" alt="Ekoroji" />
+                        </a>
+                    </li>
+                    <li style="grid-area: 5 / 1 / 6 / 2">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Green Growth</h3>
+                                <p>2023 - Site Web</p>
+                            </div>
+                            <img
+                                src="img/projects/Green Growth.png"
+                                alt="Green Growth"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 6 / 1 / 7 / 3">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Jumping Hell</h3>
+                                <p>2021 - Jeu de plateforme</p>
+                            </div>
+                            <img
+                                src="img/projects/Jumping Hell.png"
+                                alt="Jumping Hell"
+                            />
+                        </a>
+                    </li>
+                    <li style="grid-area: 6 / 3 / 7 / 5">
+                        <a href="#">
+                            <div class="projects-content">
+                                <h3>Let Me Diiiiie</h3>
+                                <p>2021 - Jeu de plateforme</p>
+                            </div>
+                            <img
+                                src="img/projects/Let Me Die.png"
+                                alt="Let Me Diiiiie"
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </section>
 
-</body>
+            <!-- <section id="contact">
+                <h2>Contact</h2>
+                <p>
+                    Vous pouvez me contacter par email à
+                    <a href="mailto:ethan.facca@ik.me">
+                    </a>
+                </p>
+            </section> -->
+        </main>
+
+        <footer>
+            <div id="footer">
+                <hr />
+                <div id="footer-content">
+                    <p>© 2024 Ethan Facca</p>
+                    <p>
+                        <a href="mentions-legales" id="footer-mentions-legales"
+                            >Mentions légales</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
