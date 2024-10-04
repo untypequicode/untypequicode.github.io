@@ -1,0 +1,121 @@
+section {
+    background: var(--bg-color);
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*padding: 9% 9%;*/
+}
+
+section.s-mh-25 {
+    min-height: 25vh;
+}
+
+section.s-mh-50 {
+    min-height: 50vh;
+}
+
+section.s-mh-75 {
+    min-height: 75vh;
+}
+
+section.s-mh-100 {
+    min-height: 100vh;
+}
+
+section.s-bg {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section.s-bg-s {
+    background: var(--second-bg-color);
+    color: var(--second-text-color);
+}
+
+section.s-bg-blue {
+    background: var(--blue-bg-color);
+    color: var(--blue-text-color);
+}
+
+section.s-bg-green {
+    background: var(--green-bg-color);
+    color: var(--green-text-color);
+}
+
+section.s-bg-yellow {
+    background: var(--yellow-bg-color);
+    color: var(--yellow-text-color);
+}
+
+section.s-bg-orange {
+    background: var(--orange-bg-color);
+    color: var(--orange-text-color);
+}
+
+section.s-bg-red {
+    background: var(--red-bg-color);
+    color: var(--red-text-color);
+}
+
+section.s-bg-purple {
+    background: var(--purple-bg-color);
+    color: var(--purple-text-color);
+}
+
+.sh,
+.sh-v,
+.sh-a,
+.sh-v-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sv,
+.sv-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sh,
+.sh-v,
+.sv {
+    width: 100%;
+}
+
+.sh-a,
+.sh-v-a,
+.sv-a {
+    width: auto;
+    max-width: 100%;
+}
+
+.sh p,
+.sh-v p,
+.sv p {
+    width: auto;
+    max-width: 100%;
+}
+
+/* BREAKPOINT */
+@media all and (max-width: 991px) {
+    section {
+        padding: 10rem 4% 2rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .sh-v,
+    .sh-v-a {
+        flex-direction: column;
+    }
+}

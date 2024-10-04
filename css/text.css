@@ -1,0 +1,142 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+h1,
+h1 * {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: calc(1 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(1 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
+}
+
+h2,
+h2 * {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: calc(0.5 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0.5 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
+}
+
+h3,
+h3 * {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: calc(0.25 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0.25 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
+}
+
+h4,
+h4 * {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: calc(0.15 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0.15 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
+}
+
+h5,
+h5 * {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: calc(0.125 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0.125 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
+}
+
+p,
+li,
+code {
+    font-family: "Urbanist", sans-serif;
+    font-size: calc(0.03 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    font-weight: calc(0 * (var(--max-font-weight) - var(--min-font-weight)) + var(--min-font-weight));
+}
+
+/* BREAKPOINT */
+@media all and (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    h1 {
+        font-size: calc(0.75 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h2 {
+        font-size: calc(0.5 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h3 {
+        font-size: calc(0.25 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h4 {
+        font-size: calc(0.1 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h5 {
+        font-size: calc(0.05 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    p,
+    li,
+    code {
+        font-size: calc(0.02 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: calc(0.5 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h2 {
+        font-size: calc(0.25 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h3 {
+        font-size: calc(0.125 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h4 {
+        font-size: calc(0.075 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h5 {
+        font-size: calc(0.05 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    p,
+    li,
+    code {
+        font-size: calc(0.01 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+}
+
+@media all and (max-width: 520px) {
+    html {
+        font-size: 50%;
+    }
+
+    h1 {
+        font-size: calc(0.3 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h2 {
+        font-size: calc(0.2 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h3 {
+        font-size: calc(0.1 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h4 {
+        font-size: calc(0.05 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    h5 {
+        font-size: calc(0.025 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+
+    p,
+    li,
+    code {
+        font-size: calc(0 * (var(--max-font-size) - var(--min-font-size)) + var(--min-font-size));
+    }
+}

@@ -1,0 +1,154 @@
+@import "boxicons.css";
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky {
+    background: var(--header-color);
+}
+
+.header .logo {
+    position: relative;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .navbar,
+.header-links,
+.header-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .navbar {
+    gap: 3.5rem;
+}
+
+.header-links {
+    gap: 1.75rem;
+}
+
+.header .navbar a,
+#switch-mode {
+    color: var(--text-color);
+    font-weight: 500;
+    transition: .3s;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+}
+
+#switch-mode,
+.header-link i {
+    font-size: 2.5rem;
+}
+
+.header .navbar a:hover,
+.header .navbar a.active,
+#switch-mode:hover,
+#switch-mode.active{
+    color: var(--second-text-color);
+}
+
+.header .logo-img {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+}
+
+.header #menu-icon {
+    position: relative;
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+/* BREAKPOINTS */
+@media all and (max-width: 991px) {
+    .header {
+        padding: 2rem 4%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        background: var(--header-color);
+    }
+
+    .header #menu-icon {
+        display: block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 2rem 4%;
+        background: var(--header-color);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
+        transition: .25s ease;
+        transition-delay: .25s;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: flex-start;
+    }
+
+    .header .navbar.active {
+        left: 0;
+        transition-delay: 0s;
+    }
+
+    .header .navbar .active-nav {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--header-color);
+        /*border-top: .1rem solid rgba(0, 0, 0, .2);*/
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .header .navbar.active .active-nav {
+        left: 0;
+        transition-delay: .25s;
+    }
+
+    .header .navbar a {
+        display: block;
+        font-size: 2rem;
+        transform: translateX(-20rem);
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+    .header .navbar.active a {
+        transform: translateX(0);
+        transition-delay: .25s;
+    }
+}

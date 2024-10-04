@@ -1,0 +1,90 @@
+@import "boxicons.css";
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+
+.footer .footer-text,
+.footer .footer-iconTop {
+    position: relative;
+}
+
+.footer .footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer .footer-iconTop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--second-bg-color);
+    border: .2rem solid var(--text-color);
+    border-radius: .6rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer .footer-iconTop a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--text-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer .footer-iconTop a:hover::before {
+    width: 100%;
+}
+
+
+.footer .footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--text-color);
+    transition: .5s;
+}
+
+.footer .footer-iconTop a:hover i {
+    color: var(--second-bg-color);
+}
+
+.footer .footer-text,
+.footer .footer-iconTop {
+    position: relative;
+}
+
+.footer .footer-text a {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+/*.bx-up-arrow-alt:before{content:"\ec5d"}*/
+
+/* BREAKPOINTS */
+@media all and (max-width: 991px) {
+    .footer {
+        padding: 2rem 4%;
+    }
+}
+
+@media all and (max-width: 462px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

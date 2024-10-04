@@ -1,3 +1,6 @@
+@import "font.css";
+@import "color.css";
+
 :root {
     --max-font-size: 5.6rem;
     --min-font-size: 1.6rem;

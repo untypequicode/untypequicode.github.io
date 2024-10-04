@@ -1,0 +1,79 @@
+:root {
+    --blue-bg-color: #E0EBF7;
+    --blue-text-color: #1F4F9C;
+    --blue-main-color: #2978FF;
+
+    --green-bg-color: #F2FAEd;
+    --green-text-color: #0D612B;
+    --green-main-color: #00c754;
+
+    --yellow-bg-color: #FAF7E3;
+    --yellow-text-color: #9E8000;
+    --yellow-main-color: #FFD600;
+
+    --orange-bg-color: #FFE0B2;
+    --orange-text-color: #B24D00;
+    --orange-main-color: #FF6D00;
+
+    --red-bg-color: #FCEDED;
+    --red-text-color: #A61F1F;
+    --red-main-color: #FF5252;
+
+    --purple-bg-color: #EDE8F5;
+    --purple-text-color: #2E008C;
+    --purple-main-color: #6100EB;
+
+    --grey-bg-color: #F5F5F5;
+    --grey-text-color: #303C40;
+    --grey-main-color: #EDF0F2;
+
+    --bg-color: var(--grey-bg-color);
+    --text-color: var(--grey-text-color);
+    --main-color: var(--grey-main-color);
+
+    --second-bg-color: var(--blue-bg-color);
+    --second-text-color: var(--blue-text-color);
+    --second-main-color: var(--blue-main-color);
+
+    --header-color: var(--second-bg-color);
+}
+
+.dark-mode {
+    --blue-bg-color: #24385C;
+    --blue-text-color: #8ABFFF;
+    --blue-main-color: #0D2E6B;
+
+    --green-bg-color: #21543D;
+    --green-text-color: #A3E8B2;
+    --green-main-color: #006B2E;
+
+    --yellow-bg-color: #302E1C;
+    --yellow-text-color: #FFF5B5;
+    --yellow-main-color: #B28A00;
+
+    --orange-bg-color: #3D3B33;
+    --orange-text-color: #FFBABA;
+    --orange-main-color: #8F0000;
+
+    --red-bg-color: #4F2424;
+    --red-text-color: #FFCC99;
+    --red-main-color: #E55200;
+
+    --purple-bg-color: #6B54A3;
+    --purple-text-color: #C4B5E8;
+    --purple-main-color: #1A00A8;
+
+    --grey-bg-color: #1A1A1A;
+    --grey-text-color: #FFFFFF;
+    --grey-main-color: #546E7A;
+
+    --bg-color: var(--grey-bg-color);
+    --text-color: var(--grey-text-color);
+    --main-color: var(--grey-main-color);
+
+    --second-bg-color: var(--blue-bg-color);
+    --second-text-color: var(--blue-text-color);
+    --second-main-color: var(--blue-main-color);
+
+    --header-color: var(--second-bg-color);
+}
