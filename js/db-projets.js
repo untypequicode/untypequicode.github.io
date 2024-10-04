@@ -173,7 +173,7 @@ const dbProjets = [
             },
             {
                 name: "Voir le site",
-                link: "https://untypequicode.fr/script.js/"
+                link: "https://script.js.untypequicode.fr/"
             }
         ]
     },
@@ -193,7 +193,7 @@ const dbProjets = [
             },
             {
                 name: "Voir le site",
-                link: "https://untypequicode.fr/style.css/"
+                link: "https://style.css.untypequicode.fr/"
             }
         ]
     },
