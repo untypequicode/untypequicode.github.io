@@ -1,69 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- OpenGraph-->
-    <title>Ethan Facca | Projets</title>
-    <meta name="description"
-          content="Je suis étudiant en cursus master en ingénierie dans le domaine de l’optimisation mathématiques et algorithmes à l’université de Bordeaux.
+        <!-- OpenGraph-->
+        <title>Ethan Facca | Projets</title>
+        <meta
+            name="description"
+            content="Je suis étudiant en cursus master en ingénierie dans le domaine de l’optimisation mathématiques et algorithmes à l’université de Bordeaux.
                 Passionné par le développement informatique, j’utilise principalement Python, C++, HTML et CSS.
-                J’aime relever des défis, apprendre de nouvelles technologies et travailler en équipe.">
-    <meta property="og:url" content="https://untypequicode.fr">
-    <meta property="og:title" content="Ethan Facca">
-    <meta property="og:description" content="Je suis étudiant en cursus master en ingénierie dans le domaine de l’optimisation mathématiques et algorithmes à l’université de Bordeaux.
+                J’aime relever des défis, apprendre de nouvelles technologies et travailler en équipe."
+        />
+        <meta property="og:url" content="https://untypequicode.fr" />
+        <meta property="og:title" content="Ethan Facca" />
+        <meta
+            property="og:description"
+            content="Je suis étudiant en cursus master en ingénierie dans le domaine de l’optimisation mathématiques et algorithmes à l’université de Bordeaux.
                 Passionné par le développement informatique, j’utilise principalement Python, C++, HTML et CSS.
-                J’aime relever des défis, apprendre de nouvelles technologies et travailler en équipe.">
-    <meta property="og:image" content="https://untypequicode.fr/images/og-image.webp">
+                J’aime relever des défis, apprendre de nouvelles technologies et travailler en équipe."
+        />
+        <meta
+            property="og:image"
+            content="https://untypequicode.fr/images/og-image.webp"
+        />
 
-    <link rel="icon" type="image/webp" href="images/favicon.webp">
+        <link rel="icon" type="image/webp" href="images/favicon.webp" />
 
-    <link rel="stylesheet" href="css/projets.css">
-</head>
+        <link rel="stylesheet" href="css/projets.css" />
+    </head>
 
-<body data-active="Projets">
+    <body data-active="Projets">
+        <header class="header"></header>
 
-<header class="header"></header>
+        <section class="s-mh-50">
+            <div class="bg" id="home-bg"></div>
+            <div class="home-content">
+                <div class="sv">
+                    <h1 class="ah">Mes projets</h1>
+                </div>
+            </div>
+            <div class="bg" id="home-bg-hover"></div>
+        </section>
 
-<section class="s-mh-50">
-    <div class="bg" id="home-bg"></div>
-    <div class="home-content">
-        <div class="sv">
-            <h1 class="ah">Mes projets</h1>
-        </div>
-    </div>
-    <div class="bg" id="home-bg-hover"></div>
-</section>
+        <section class="projects-grid"></section>
 
-<section class="projects-grid">
+        <footer class="footer"></footer>
 
-</section>
+        <script src="js/db-header.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/db-footer.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/animation.js"></script>
+        <script src="js/switch-mode.js"></script>
+        <script src="js/db-projets.js"></script>
+        <script src="js/projets.js"></script>
 
-<footer class="footer"></footer>
+        <script src="https://openpanel.dev/op.js" defer async></script>
+        <script>
+            window.op =
+                window.op ||
+                function (...args) {
+                    (window.op.q = window.op.q || []).push(args);
+                };
+            window.op("ctor", {
+                clientId: "c00fd895-7b57-4217-b149-5ecba887ce1a",
+                trackScreenViews: true,
+                trackOutgoingLinks: true,
+                trackAttributes: true,
+            });
+        </script>
+        <script
+            defer
+            src="https://umami.untypequicode.fr/script.js"
+            data-website-id="10e2d823-0ad9-4367-a72d-f8eef28eea31"
+        ></script>
 
-<script src="js/db-header.js"></script>
-<script src="js/header.js"></script>
-<script src="js/db-footer.js"></script>
-<script src="js/footer.js"></script>
-<script src="js/animation.js"></script>
-<script src="js/switch-mode.js"></script>
-<script src="js/db-projets.js"></script>
-<script src="js/projets.js"></script>
-
-<script src="https://openpanel.dev/op.js" defer async></script>
-<script>
-    window.op = window.op || function (...args) { (window.op.q = window.op.q || []).push(args); };
-    window.op('ctor', {
-        clientId: 'c00fd895-7b57-4217-b149-5ecba887ce1a',
-        trackScreenViews: true,
-        trackOutgoingLinks: true,
-        trackAttributes: true,
-    });
-</script>
-<script defer src="https://umami.untypequicode.fr/script.js" data-website-id="10e2d823-0ad9-4367-a72d-f8eef28eea31"></script>
-
-</body>
+        <script>
+            var _paq = (window._paq = window._paq || []);
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(["trackPageView"]);
+            _paq.push(["enableLinkTracking"]);
+            (function () {
+                var u = "//matomo.untypequicode.fr/";
+                _paq.push(["setTrackerUrl", u + "matomo.php"]);
+                _paq.push(["setSiteId", "1"]);
+                var d = document,
+                    g = d.createElement("script"),
+                    s = d.getElementsByTagName("script")[0];
+                g.async = true;
+                g.src = u + "matomo.js";
+                s.parentNode.insertBefore(g, s);
+            })();
+        </script>
+    </body>
 </html>
