@@ -124,7 +124,7 @@ const dbProjets = [
       },
       {
         name: "Voir le site",
-        link: "https://green-growth.www.untypequicode.fr/",
+        link: "https://green-growth.untypequicode.fr/",
       },
     ],
   },
@@ -160,7 +160,7 @@ const dbProjets = [
       },
       {
         name: "Voir le site",
-        link: "https://libreshield.www.untypequicode.fr/",
+        link: "https://libre-shield.untypequicode.fr/",
       },
     ],
   },
@@ -181,7 +181,7 @@ const dbProjets = [
       },
       {
         name: "Voir le site",
-        link: "https://script.js.www.untypequicode.fr/",
+        link: "https://style-css.untypequicode.fr/",
       },
     ],
   },
@@ -202,7 +202,7 @@ const dbProjets = [
       },
       {
         name: "Voir le site",
-        link: "https://style.css.www.untypequicode.fr/",
+        link: "https://style-css.untypequicode.fr/",
       },
     ],
   },
