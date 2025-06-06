@@ -6,4 +6,4 @@ Disallow: /README.md
 Disallow: /LICENSE
 Disallow: /.gitignore
 
-Sitemap: https://untypequicode.fr/sitemap.xml
+Sitemap: https://untypequicode.github.io/sitemap.xml
